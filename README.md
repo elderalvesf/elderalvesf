@@ -45,8 +45,8 @@ Previously at **Cornershop by Uber** (QA technical reference for the LATAM organ
 
 | Project | Stack | Description |
 |---|---|---|
-| [qa-webdriverio-js-pom](https://github.com/elderalvesf/webdriverio-sauce) | WebDriverIO • JavaScript • Mocha • Allure | E2E automation framework with Page Object Model and CI/CD via GitHub Actions |
-| [qa-playwright-ts-pom](https://github.com/elderalvesf/playwright-sauce) | Playwright • TypeScript • Fixtures • Allure | Multi-browser E2E framework using Playwright Fixtures pattern and parallel execution |
+| [WebdriverIO + JS](https://github.com/elderalvesf/webdriverio-sauce) | WebDriverIO • JavaScript • Mocha • Allure | E2E automation framework with Page Object Model and CI/CD via GitHub Actions |
+| [Playwright + TS](https://github.com/elderalvesf/playwright-sauce) | Playwright • TypeScript • Fixtures • Allure | Multi-browser E2E framework using Playwright Fixtures pattern and parallel execution |
 
 > More projects coming soon: API Testing (Python + Pytest), Mobile (Appium), Accessibility (WCAG + axe-core)
 
