@@ -76,9 +76,4 @@ Previously at **Cornershop by Uber** (QA technical reference for the LATAM organ
 
 ---
 
-## 📊 GitHub Stats
-
-![Elder's GitHub Stats](https://github-readme-stats.vercel.app/api?username=elderalvesf&show_icons=true&theme=tokyonight&hide_border=true)
----
-
 ⭐ If you found any of these projects useful, feel free to leave a **star (★)**
