@@ -54,7 +54,7 @@ Previously at **Cornershop by Uber** (QA technical reference for the LATAM organ
 
 ## 🏢 Career Highlights
 
-- **ArcTouch** *(2022 – present)* — QA lead on 7+ projects across 10+ clients in luxury retail, aviation, fintech, IoT, and more. Built automated regression suites in WebDriverIO + Python reducing cycle time by 50%+
+- **ArcTouch** *(2022 – present)* — QA lead on several projects across 10+ clients in luxury retail, aviation, fintech, IoT, and more. Built automated regression suites in WebDriverIO + Python reducing cycle time by 50%+
 - **Cornershop by Uber** *(2021 – 2022)* — Senior QA technical reference for a ~25-person LATAM QA organization. Partnered directly with the QA Director to define and roll out QA standards across LATAM
 - **Sidia — Samsung R&D Institute** *(2017 – 2021)* — Smart TV QA (Tizen, Bixby PT-BR). Built OpenCV-based visual test automation. Presented at an internal Samsung workshop in South Korea
 
@@ -65,7 +65,7 @@ Previously at **Cornershop by Uber** (QA technical reference for the LATAM organ
 - 🎓 Postgraduate in Test Automation *(Faculdade Facint, in progress — 2026, AI focus)*
 - 🎓 Postgraduate in Agile Testing *(CESAR School, 2019–2021)*
 - 💻 Bachelor's in Computer Science *(UniNorte, 2016–2019)*
-- 📜 ISTQB Certified Tester Foundation Level *(CTFL — 2018)*
+- 📜 ISTQB Certified Tester Foundation Level *(CTFL)*
 
 ---
 
@@ -79,8 +79,6 @@ Previously at **Cornershop by Uber** (QA technical reference for the LATAM organ
 ## 📊 GitHub Stats
 
 ![Elder's GitHub Stats](https://github-readme-stats.vercel.app/api?username=elderalvesf&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=elderalvesf&layout=compact&theme=tokyonight&hide_border=true)
-
 ---
 
 ⭐ If you found any of these projects useful, feel free to leave a **star (★)**
