@@ -18,9 +18,10 @@ Previously at **Cornershop by Uber** (QA technical reference for the LATAM organ
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 
 ### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ### API & Tools
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
@@ -28,6 +29,7 @@ Previously at **Cornershop by Uber** (QA technical reference for the LATAM organ
 ![Jenkins](https://img.shields.io/badge/Jenkins-D33833?style=for-the-badge&logo=jenkins&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
 ### Test Management
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
@@ -42,6 +44,37 @@ Previously at **Cornershop by Uber** (QA technical reference for the LATAM organ
 ---
 
 ## 📁 Featured Projects
+
+### 📱 Mobile App + Automation Ecosystem
+
+A full end-to-end ecosystem showing the relationship between a real Android app and its dedicated mobile automation framework, connected via CI/CD.
+
+| Project | Stack | Description |
+|---|---|---|
+| [meu-consultorio](https://github.com/elderalvesf/meu-consultorio) | Kotlin • Jetpack Compose • Room • Firebase • GitHub Actions | Android app for dental practice management — patients, appointments, financials, and Google Calendar sync |
+| [meu-consultorio-tests](https://github.com/elderalvesf/meu-consultorio-tests) | WebDriverIO • Appium • UIAutomator2 • JavaScript • GitHub Actions | Mobile E2E automation framework using Page Object Model, triggered automatically after every app build |
+
+**CI/CD Pipeline — how the two repos connect:**
+
+```mermaid
+graph LR
+    A([Push to main]) --> B[Build & Sign APK\nGradle + Keystore]
+    B --> C[Create GitHub Release\n+ Upload APK]
+    B --> D[Firebase App Distribution\nnotify testers]
+    C --> E[repository_dispatch\nevent: new-build\n+ APK URL payload]
+    E --> F([meu-consultorio-tests\nGitHub Actions triggered])
+    F --> G[Download APK\nfrom Release]
+    G --> H[Android Emulator\nAPI 34 · Pixel 4 · x86_64]
+    H --> I[Appium Server\nUIAutomator2 driver]
+    I --> J[WebDriverIO\nPage Object Model\n7 spec files]
+    J --> K[Upload Test Reports\nArtifacts · 30-day retention]
+```
+
+> Every push to `meu-consultorio` automatically builds, distributes, and triggers the full Appium test suite in `meu-consultorio-tests` — no manual intervention required.
+
+---
+
+### 🌐 Web Automation
 
 | Project | Stack | Description |
 |---|---|---|
